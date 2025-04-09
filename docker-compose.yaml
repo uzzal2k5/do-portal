@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: dop-postgres
+    environment:
+      POSTGRES_USER: dopuser
+      POSTGRES_PASSWORD: doppass
+      POSTGRES_DB: dopdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./dop-postgres/postgresql:/var/lib/postgresql/data
+    restart: always

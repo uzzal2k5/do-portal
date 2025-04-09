@@ -1,0 +1,26 @@
+/* src/assets/portfolio.css */
+.portfolio-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.portfolio-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.skills, .experience {
+  margin-bottom: 20px;
+}
+
+.skills h2, .experience h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
